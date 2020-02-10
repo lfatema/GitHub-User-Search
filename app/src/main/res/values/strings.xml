@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SecondExercise</string>
+    <string name="textview_repo">TextView</string>
+    <string name="events_url">Events URL</string>
+    <string name="repos_url">Repos URL</string>
+    <string name="textview">TextView</string>
 </resources>

@@ -7,7 +7,7 @@ import retrofit2.http.Query
 
 interface APIService {
 
-    @GET("/search/users?q=location:Ireland")
-    fun getUserDetails(@Query("location") tag: String): Call<Data>
+    @GET("/search/users")
+    fun getUserDetails(@Query("q") tag: String): Call<Data>
 
 }
